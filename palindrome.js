@@ -25,18 +25,25 @@ function isPalindrome(word){
          if(temp === startAtEnd){
 
              console.log("isPalindrome");
+
+
+            // return true;
          }
 
          else{
 
              console.log("isnotPalindrome");
+
+           //  return false;
          }
 
 
-         temp ++;
+         firstletter ++;
 
-         startAtEnd --;
-         break;
+         lastletter --;
+
+         //break;
+      
 
         // word[firstletter++]= word[lastletter];
 
@@ -51,7 +58,7 @@ function isPalindrome(word){
 }
 
 
-let func = isPalindrome('madam');
+let func = isPalindrome('adam');
 
  //console.log("first letter is:" +func);
 
